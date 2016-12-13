@@ -20,6 +20,7 @@
     NSMutableArray *arr=[[NSMutableArray alloc]init];
     
     UIButton *btn =(UIButton*)[self.view viewWithTag:110];
+     UIButton *btn2 =(UIButton*)[self.view viewWithTag:110];
     // Do any additional setup after loading the view, typically from a nib.
 }
 
