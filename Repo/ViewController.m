@@ -7,7 +7,7 @@
 //
 
 #import "ViewController.h"
-
+#import "AppDelegate.h"
 @interface ViewController ()
 
 @end
@@ -21,6 +21,8 @@
     
     UIButton *btn =(UIButton*)[self.view viewWithTag:110];
      UIButton *btn2 =(UIButton*)[self.view viewWithTag:110];
+    
+    [[UIApplication sharedApplication]setApplicationIconBadgeNumber:0]
     // Do any additional setup after loading the view, typically from a nib.
 }
 
