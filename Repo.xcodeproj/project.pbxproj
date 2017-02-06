@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		464F4C221E48A9DE00AB8B1C /* newvc.m in Sources */ = {isa = PBXBuildFile; fileRef = 464F4C211E48A9DE00AB8B1C /* newvc.m */; };
 		466CA4C81E001E5700FCCE74 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 466CA4C71E001E5700FCCE74 /* main.m */; };
 		466CA4CB1E001E5700FCCE74 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 466CA4CA1E001E5700FCCE74 /* AppDelegate.m */; };
 		466CA4CE1E001E5700FCCE74 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 466CA4CD1E001E5700FCCE74 /* ViewController.m */; };
@@ -36,6 +37,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		464F4C201E48A9DE00AB8B1C /* newvc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = newvc.h; sourceTree = "<group>"; };
+		464F4C211E48A9DE00AB8B1C /* newvc.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = newvc.m; sourceTree = "<group>"; };
 		466CA4C31E001E5700FCCE74 /* Repo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Repo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		466CA4C71E001E5700FCCE74 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		466CA4C91E001E5700FCCE74 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -107,6 +110,8 @@
 				466CA4CA1E001E5700FCCE74 /* AppDelegate.m */,
 				466CA4CC1E001E5700FCCE74 /* ViewController.h */,
 				466CA4CD1E001E5700FCCE74 /* ViewController.m */,
+				464F4C201E48A9DE00AB8B1C /* newvc.h */,
+				464F4C211E48A9DE00AB8B1C /* newvc.m */,
 				466CA4CF1E001E5700FCCE74 /* Main.storyboard */,
 				466CA4D51E001E5700FCCE74 /* Assets.xcassets */,
 				466CA4D71E001E5700FCCE74 /* LaunchScreen.storyboard */,
@@ -279,6 +284,7 @@
 				466CA4CE1E001E5700FCCE74 /* ViewController.m in Sources */,
 				466CA4CB1E001E5700FCCE74 /* AppDelegate.m in Sources */,
 				466CA4C81E001E5700FCCE74 /* main.m in Sources */,
+				464F4C221E48A9DE00AB8B1C /* newvc.m in Sources */,
 				466CA4D41E001E5700FCCE74 /* Repo.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -509,6 +515,7 @@
 				466CA4F51E001E5800FCCE74 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		466CA4F61E001E5800FCCE74 /* Build configuration list for PBXNativeTarget "RepoTests" */ = {
 			isa = XCConfigurationList;
@@ -517,6 +524,7 @@
 				466CA4F81E001E5800FCCE74 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		466CA4F91E001E5800FCCE74 /* Build configuration list for PBXNativeTarget "RepoUITests" */ = {
 			isa = XCConfigurationList;
@@ -525,6 +533,7 @@
 				466CA4FB1E001E5800FCCE74 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
