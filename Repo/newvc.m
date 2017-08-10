@@ -16,6 +16,10 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+  
+  UIButton *btn =(UIButton*)[self.view viewWithTag:110];
+  UIButton *btn2 =(UIButton*)[self.view viewWithTag:110];
+
     // Do any additional setup after loading the view.
 }
 
